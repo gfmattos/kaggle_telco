@@ -16,7 +16,10 @@ Uma Empresa de Telecom que está perdendo clientes e ela gostaria de alguma solu
 **Possíveis Resoluções**
 
 **1.** O principal Perfil de Churn se trata do Jovem Adulto (sem dependentes, sem parceiro, poucas linhas, contrato mais barato e de curto prazo). Portanto ainda há baixa fidelização e grandes chances de substituição pelos preços da concorrência - Aconselha-se criar novas estratégias de marketing afim de deixar o serviço mais atrativo para esse público (promoções)
+
 **2.** Serviço de Streaming não deve atender aos requisitos desse público, seria interessante que efetuassem uma pesquisa de satisfação em relação aos produtos ofertados dentro desse serviço
+
 **3.** De maneira geral o serviço de telefone e internet são mais bem avaliados conforme a velocidade e o sinal ofertado pela empresa. Focar no aumento desses dois parâmetros a um preço dentro do ofertado pela concorrência pode aumentar a satsfação dos clientes.
+
 **4** Deve-se investir na elaboração de mais pesquisas de satisfação afim de ampliar a possibilidade de realizar ainda mais correlações entre as variáveis dos serviços.
 
