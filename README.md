@@ -1,34 +1,85 @@
-Uma Empresa de Telecom que está perdendo clientes e ela gostaria de alguma solução pra isso.
 
-**Perguntas e Respostas da análise realizada:**
+# **Telco Customer Churn**
+# **Focused customer retention programs**
 
-**1.** Os clientes que cancelaram possuim quantas 'linhas'/tenure contratadas? Qual o valor embutido? Foi um motivo financeiro por parte do cliente?
+---
 
-**R:** A maioria dos clientes que cancelam possuem de 1 a 10 'linhas' contratadas, sendo (50% até 10 linhas, e mais 25% até 30, somando 75% até 30 linhas). Avaliando os 50% temos um gasto mensal médio de $65,16 e gasto total médio de $220,14.
+## *Context*
+"Predict behavior to retain customers. You can analyze all relevant customer data and develop focused customer retention programs." [IBM Sample Data Sets]
 
+## *Content*
 
-**2.** Há alguma tendência de algum serviço possuir maior taxa de cancelamento (devido a qualidade, preço, ter se tornado ultrapassado, ou por conta da concorrência oferecer melhores produtos)?
+Each row represents a customer, each column contains customer’s attributes described on the column Metadata.
 
-**R:** A maioria dos clientes que cancelam possuiam os serviços InternetService e PhoneService em número absoluto. No entanto avaliando as taxas por número de contratações temos os serviços mais críticos como sendo ainda a InternetService, mas também StreamingTV e StreamingMovies estando acima da média de 26%.
+The data set includes information about:
 
+- Customers who left within the last month – the column is called Churn
+- Services that each customer has signed up for – phone, multiple lines, internet, online security, online backup, device protection, tech support, and streaming TV and movies
+- Customer account information – how long they’ve been a customer, contract, payment method, paperless billing, monthly charges, and total charges
+- Demographic info about customers – gender, age range, and if they have partners and dependents
 
-**3.** Qual é o perfil do cliente que mais apresenta Churn? Casado? Idoso? Sexo? Dependentes? Tipo de Contrato?
+## *Inspiration*
+To explore this type of models and learn more about the subject.
 
-**R:** A maioria dos clientes que cancelam são Adultos, sem dependentes, sem um parceiro, com um contrato "month-to-month", podendo ser tanto homem como mulher.
+All of the information above was provided by Kaggle, to see more content about this case visit https://www.kaggle.com/blastchar/telco-customer-churn
 
+---
 
+This analysis was created by [Guilherme Mattos](https://www.linkedin.com/in/guilhermefmattos/)
 
---> De maneira geral o Churn esta predominante em clientes que não são idosos com um gasto relativamente baixo, com pouca posse de linhas, com contrato mensal, em sua maioria referente a internet e telefone e sem parceiro ou dependentes. Além disso, os serviços de StreamingTV e StreamingMovies também aparentam bem insatisfatórios.
+To access the analysis and modeling please open [`telco notebook`](./notebooks/telco_.ipynb) file inside the notebooks folder
 
+--- 
 
-**Possíveis Resoluções**
+## **Table of Contents**
 
+- [Notebook Contents](#Notebook-Contents)
+- [Main Analysis](#Main-Analysis)
+- [Modeling Technique Selection](#Modeling-Technique-Selection)
+- [Results Discussion](#Results-Discussion)
+- [Extra Contents](#Extra-Contents)
 
-**1.** O principal Perfil de Churn se trata do Jovem Adulto (sem dependentes, sem parceiro, poucas linhas, contrato mais barato e de curto prazo). Portanto ainda há baixa fidelização e grandes chances de substituição pelos preços da concorrência - Aconselha-se criar novas estratégias de marketing afim de deixar o serviço mais atrativo para esse público (promoções)
+### **Notebook Contents**
 
-**2.** Serviço de Streaming não deve atender aos requisitos desse público, seria interessante que efetuassem uma pesquisa de satisfação em relação aos produtos ofertados dentro desse serviço
+| Sections |
+| ------- |
+| [0. Libraries](./notebooks/telco_.ipynb/#0.-Libraries) |
+| [1. Dataset](./notebooks/telco_.ipynb/#1.-Dataset) |
+| [2. Exploratory Analysis](./notebooks/telco_.ipynb/#2.-Exploratory-Analysis) |
+| [3. Feature Engineering](./notebooks/telco_.ipynb/#3.-Feature-Engineering) |
+| [4. Modeling](./notebooks/telco_.ipynb/4.-Modeling) |
+| [5. Tunning](./notebooks/telco_.ipynb/#5.-Tunning) |
+| [6. Results](./notebooks/telco_.ipynb/#6.-Results) |
 
-**3.** De maneira geral o serviço de telefone e internet são mais bem avaliados conforme a velocidade e o sinal ofertado pela empresa. Focar no aumento desses dois parâmetros a um preço dentro do ofertado pela concorrência pode aumentar a satsfação dos clientes.
+[⬆ Back to Top](#Table-of-Contents)
 
-**4** Deve-se investir na elaboração de mais pesquisas de satisfação afim de ampliar a possibilidade de realizar ainda mais correlações entre as variáveis dos serviços.
+### **Main Analysis**
 
+| Sections | Point |
+| ------- | ------- |
+
+[⬆ Back to Top](#Table-of-Contents)
+
+### **Modeling Technique Selection**
+
+| Models | Point |
+| ------- | ------- |
+
+[⬆ Back to Top](#Table-of-Contents)
+
+### **Results Discussion**
+
+| Models | Point |
+| ------- | ------- |
+
+[⬆ Back to Top](#Table-of-Contents)
+
+### **Extra Contents**
+
+| Content |
+| ------- |
+| [PDFs](./data/.pdf) |
+| [Power BI Dashboards](./data/.pbix) |
+| [Data Files](./data/.csv) |
+
+[⬆ Back to Top](#Table-of-Contents)
